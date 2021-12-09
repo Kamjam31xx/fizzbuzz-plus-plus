@@ -1,0 +1,27 @@
+#include <iostream>
+int main(){
+    std::string str [15] = {"\n"," FIZZ\n"," BUZZ\n"," FIZZBUZZ\n"};
+    std::cout << "0\n";
+    unsigned long int i = 0;
+    unsigned long int j = 0;
+    while(true){
+        unsigned long int k = 15 * i + 1;
+        std::cout << k << str[0] \
+        << k + 1 << str[0] \
+        << str[1] \
+        << k + 3 << str[0] \
+        << str[2] \
+        << str[1] \
+        << k + 6 << str[0] \
+        << k + 7 << str[0] \
+        << str[1] \
+        << str[2] \
+        << k + 8 << str[0] \
+        << str[1] \
+        << k + 9 << str[0] \
+        << k + 10 << str[0] \
+        << str[3];
+        j = 0;
+        i++;
+    }
+}
